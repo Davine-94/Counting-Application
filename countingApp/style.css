@@ -2,10 +2,14 @@
    background-image: url(./img/newapp.jpeg); 
 }
 #increment-btn {
-    border-radius: 10%;
+    border-radius: 5px;
     box-sizing: border-box;
     box-shadow: solid blanchedalmond;
     margin-left: 600px;
     width:8%;
-    background-color: azure;
+    font-weight: bold;
+    color:aliceblue;
+}
+button {
+    background-color: beige;
 }

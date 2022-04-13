@@ -1,4 +1,5 @@
 # PracticingAngular
+This is a project by Davine Phylis that shows my progress in learning angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 

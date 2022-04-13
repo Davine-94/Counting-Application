@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PracticeComponent implements OnInit {
 
+  public name = "Davine";
+  public myId = "practiceId";
+  public isDisabled = "true";
   constructor() { }
 
   ngOnInit(): void {

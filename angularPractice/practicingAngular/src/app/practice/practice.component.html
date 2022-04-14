@@ -1,4 +1,12 @@
+<!-- Interpolation and Property Binding -->
 <h2>Welcome {{name}}</h2>
 <input [id]="myId" type="text" value="Nalah">
 <input [disabled]="isDisabled" [id]="myId" type="text" value="Tiso">
 
+<!-- Class Binding -->
+<h2 class="text-success">New Project</h2>
+<p [class]="colorText">Practicing class binding</p>
+<h2 class="text-danger">New Example</h2>
+<p [class.text-danger]="hasError">Highlighting the new material</p>
+<h2 class="text-special">Hello New Application</h2>
+<h3 [ngClass]="messageClasses">Let us Write a blog post</h3>

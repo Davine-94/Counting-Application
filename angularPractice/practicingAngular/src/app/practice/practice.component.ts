@@ -23,9 +23,14 @@ export class PracticeComponent implements OnInit {
     color: "plum",
     fontStyle: "italic"
   }
+  public greeting = ''
   constructor() { }
 
   ngOnInit(): void {
+  }
+  onClick(){
+    this.greeting = "Hello World";
+    console.log("This Works");
   }
 
 }

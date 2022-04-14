@@ -11,12 +11,17 @@ export class PracticeComponent implements OnInit {
   public myId = "practiceId";
   public isDisabled = "true";
   public colorText = "text-success";
-  public hasError = "text-danger";
+  public hasError = true;
   public isSpecial = true;
+  public highlightColor= "orange";
   public messageClasses = {
     "text-success": !this.hasError,
     "text-danger":this.hasError,
     "text-special": this.isSpecial
+  }
+  public titleStyles = {
+    color: "plum",
+    fontStyle: "italic"
   }
   constructor() { }
 
